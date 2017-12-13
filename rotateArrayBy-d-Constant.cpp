@@ -7,7 +7,7 @@ int main(){
         cin>>d;
 
         while(k<d){
-                temp = arr[0];
+                temp = arr[0]; //Remember this tricky thing, keep temp outside the for loop rather inside, inside me rakhne par value lost ho jaati h loop se baahar aate se hi, scope of variable pada hi h then..
                 for(int i = 0; i < 11; i++){
                         //temp = arr[0];
                         arr[i] = arr[i+1];
